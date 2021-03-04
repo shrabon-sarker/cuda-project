@@ -1,0 +1,372 @@
+/*===================================
+				About
+   =================================== */
+
+/*
+    Theme Name: cuda template 
+    Theme URI: http://cuda.com
+    Author: shrabon
+    Author URI: http://shrabon.com
+    Description: this is yebo cuda theme is best theme all .
+    Tags: One page, multi page, multipurpose, creative, html5, css3, javacript.
+
+ */
+
+/* ===================================
+          Table of Contents
+   =================================== */
+
+/*
+	01. Typography
+	02. Header section
+	03. service section
+	04. team section
+	05. skills section
+	06. protfolio section
+	07. about section
+    08. contact section
+    09. footer section
+ */
+
+/*Table Of Contents ends */
+
+/*Global Styling*/
+
+/*=====================================
+	Typography section working start
+=========================================*/
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+/*=====================================
+	header section working start
+=========================================*/
+.header-section {
+  background: #87509c;
+  padding: 40px 0;
+}
+.menu ul li {
+  padding: 0 12px;
+  transition: 0.5s;
+}
+
+.menu ul li:hover a {
+  background: #643a79;
+  padding: 4px 10;
+  border-radius: 5px;
+}
+.menu ul li .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: 0.5s;
+}
+.active {
+  background: #643a79;
+  padding: 4px 10;
+  border-radius: 5px;
+}
+
+.header {
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 90px;
+}
+
+.buttom {
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #eb7d4b;
+  border-radius: 5px;
+  padding: 15px 45px;
+  border-bottom: 4px solid #c86a40;
+  transition: 0.5s;
+}
+
+.buttom:hover {
+  text-decoration: none;
+  background: #643a79;
+  border-bottom: 4px solid #562b6c;
+  color: #ffffff;
+}
+
+/*=====================================
+	service section working start 
+=========================================*/
+
+.service-section {
+  background: #17c2a4;
+  color: #ffffff;
+  padding: 100px 0;
+}
+.section-header {
+  margin-bottom: 90px;
+}
+.section-header h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.section-header hr {
+  width: 80px;
+  border: 2px solid #14a58c;
+}
+
+.section-header p {
+  font-size: 17px;
+}
+
+.service img {
+  width: 100px;
+  height: 120px;
+}
+
+.service h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 40px 0 10px;
+}
+
+/*=====================================
+	team section working start 
+=========================================*/
+.team-section {
+  padding: 100px 0;
+  background: #e7f1f8;
+}
+
+.team-section .section-header h2,
+.team-section .section-header p,
+.skills-section .section-header h2,
+.skills-section .section-header p {
+  color: #3c4761;
+}
+.team-section .section-header hr,
+.skills-section .section-header hr {
+  border: 2px solid #c8d9e5;
+}
+.team img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.team h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 30px 0 1px;
+  color: #27283d;
+}
+
+.team h5 {
+  color: #30bae7;
+  font-size: 17px;
+}
+
+.team p {
+  color: #27283d;
+}
+.socail ul li {
+}
+.socail ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  background: #bdd1df;
+  border-radius: 50%;
+  padding: 8px 13px;
+  transition: 0.4s;
+}
+
+.socail ul li a:hover {
+  background: #643a79;
+}
+
+/*=====================================
+	skills section working start 
+=========================================*/
+.skills-section {
+  padding: 100px 0;
+}
+
+.skills h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 30px 0 1px;
+  color: #27283d;
+}
+
+/*=====================================
+	protfolio section working start 
+=========================================*/
+
+.protfolio-section {
+  background: #ffdd99;
+  padding: 100px 0;
+}
+.protfolio-section .section-header,
+.protfolio-menu {
+  margin-bottom: 60px;
+}
+.protfolio-section .section-header h2,
+.protfolio-section .section-header p {
+  color: #393939;
+}
+.protfolio-section .section-header hr {
+  border: 2px solid #e5c37f;
+}
+.protfolio {
+  padding: 0 6px;
+}
+.protfolio-menu ul li a {
+  color: #393939;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ebc985;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.protfolio-menu ul .f-action a {
+  background: #fff;
+}
+
+.protfolio-menu ul li:hover a {
+  background: #fff;
+}
+
+.protfolio h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 30px 0;
+  color: #27283d;
+}
+
+/*=====================================
+	about section working start 
+=========================================*/
+
+.about-section {
+  background: #d74680;
+  color: #ffffff;
+  padding: 100px 0 0;
+}
+
+.about-section .section-header hr {
+  border: 2px solid #c74176;
+}
+
+.media {
+  margin-bottom: 100px;
+}
+
+.about .media img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.about .media h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 16px 0 1px;
+}
+
+.about .media h5 {
+  color: #ffdd99;
+  font-size: 17px;
+}
+
+.about .media p {
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+
+/*=====================================
+	contact section working start 
+=========================================*/
+.contact-section {
+  background: #3c5499;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+.contact-section .section-header hr {
+  border: 2px solid #273a71;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+  background: #273a71;
+  color: #fff;
+  border-color: #273a71;
+}
+
+.contact textarea {
+  background: #273a71;
+  color: #fff;
+  border-color: #273a71;
+}
+
+.contact .buttom {
+  background: #30bae7;
+  border: 0;
+  border-bottom: 4px solid #299ec5;
+}
+/*=====================================
+	footer section working start 
+=========================================*/
+
+.footer-section {
+  background: #344b8e;
+  padding: 40px 0;
+  color: #ffffff;
+  border-top: 1px solid #4862aa;
+}
+.footer-socail ul li {
+  padding: 0 20px;
+}
+.footer-socail ul li a {
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@media all and (max-width: 768px) {
+  .active {
+    background: none;
+  }
+
+  .header-section img {
+    width: 100px;
+    height: auto;
+  }
+}
